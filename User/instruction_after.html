@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+* {
+				margin: 0px;
+				font-family: Helvetica, "Helvetica Neue", Roboto, Noto, Arial, sans-serif;
+			}
+
+			a {
+				text-decoration: none;
+				color: white;
+			}
+			
+			#RootWrapperIntroduction {
+				min-height: 100vh;
+				background-color: white;
+				position: relative;
+			}
+			
+			#Instruction {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 64px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 712px;
+				top: 191px;
+			}
+			
+			#WelcomeToOurZensiphusIoTDeviceInThisPageWeWillTellYouStepByStepOfHowToUseOurDeviceToEnsureTheUsageToBeAsAccurateAsPossible {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 20px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: center;
+				position: absolute;
+				left: 354px;
+				top: 298px;
+			}
+			
+			#Rectangle33 {
+				width: 595px;
+				height: 365px;
+				object-fit: cover;
+				position: absolute;
+				left: 567px;
+				top: 512px;
+			}
+			
+			#Step1WashingYourHand {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 36px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: center;
+				position: absolute;
+				left: 657px;
+				top: 454px;
+			}
+			
+			#Step2FindTheLocation {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 36px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: center;
+				position: absolute;
+				left: 675px;
+				top: 1100px;
+			}
+			
+			#Step3PlaceEachNodeOnTheLocation {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 36px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: center;
+				position: absolute;
+				left: 553px;
+				top: 1912px;
+			}
+			
+			#Step4WaitForDevice {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 36px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: center;
+				position: absolute;
+				left: 689px;
+				top: 2606px;
+			}
+			
+			#Step5AllDone {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 36px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: center;
+				position: absolute;
+				left: 745px;
+				top: 3412px;
+			}
+			
+			#WashingYourHandIsVeryCrucialAsIfThereIsSlightGermOrDustInTheDeviceSNodeTheAccuracyOfTheDeviceWillBeLower {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 20px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: center;
+				width: 925px;
+				min-height: 97px;
+				position: absolute;
+				left: 402px;
+				top: 919px;
+				height: 97px;
+			}
+			
+			#TheLocationOfEachLeadIs1LeftSideOfYourCollarBone2RightSideOfYourCollarBone3LeftSideOfYourLowerChest {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 20px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: center;
+				width: 925px;
+				min-height: 97px;
+				position: absolute;
+				left: 402px;
+				top: 1665px;
+				height: 97px;
+			}
+			
+			#PlaceTheNodeOnTheLocationFromPreviousStep {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 20px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: center;
+				position: absolute;
+				left: 645px;
+				top: 2480px;
+			}
+			
+			#WaitForTheDeviceToWorkingOnReceivingTheInformationThisMightTookACoupleMinuteBePatient {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 20px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: center;
+				position: absolute;
+				left: 599px;
+				top: 3238px;
+			}
+			
+			#AllSetAfterEveryStepAboveYourEcgDataWillBeReadyToUse {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 20px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: center;
+				position: absolute;
+				left: 608px;
+				top: 4024px;
+			}
+			
+			#Rectangle34 {
+				width: 506px;
+				height: 428px;
+				object-fit: cover;
+				position: absolute;
+				left: 611px;
+				top: 1183px;
+			}
+			
+			#Rectangle70 {
+				width: 770px;
+				height: 444px;
+				object-fit: cover;
+				position: absolute;
+				left: 479px;
+				top: 1982px;
+			}
+			
+			#Rectangle71 {
+				width: 774px;
+				height: 495px;
+				object-fit: cover;
+				position: absolute;
+				left: 477px;
+				top: 2701px;
+			}
+			
+			#Rectangle72 {
+				width: 577px;
+				height: 497px;
+				object-fit: cover;
+				position: absolute;
+				left: 579px;
+				top: 3463px;
+			}
+			
+			#Group18 {
+				width: 1728px;
+				height: 4465px;
+				position: absolute;
+				left: 0px;
+				top: 12px;
+			}
+			
+			#Zensiphus {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 64px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 42px;
+				top: 0px;
+			}
+			
+			#Home {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 20px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 421px;
+				top: 31px;
+			}
+			
+			#AboutUs {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 20px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 791px;
+				top: 31px;
+			}
+			
+			#WhatIsEcg {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 20px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 653px;
+				top: 31px;
+			}
+			
+			#Instruction_0001 {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 20px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 517px;
+				top: 30px;
+			}
+			
+			#SignIn {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 15px;
+				font-family: Inter, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 1601px;
+				top: 25px;
+			}
+			
+			#Group26 {
+				width: 1728px;
+				height: 277px;
+				position: absolute;
+				left: 0px;
+				top: 4188px;
+			}
+			
+			#Rectangle59 {
+				width: 1728px;
+				height: 277px;
+				background-color: rgb(26, 179, 133);
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#ForMoreInformationOnZensiphusOrToScheduleADemoPleaseContactUsAt66XXxxXxxxInfoZensiphusCom {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 24px;
+				font-family: Asap, sans-serif;
+				font-weight: 500;
+				text-align: center;
+				width: 1024px;
+				position: absolute;
+				left: 352px;
+				top: 81px;
+			}
+			
+			#ContactUs {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 36px;
+				font-family: Asap, sans-serif;
+				font-weight: 500;
+				text-align: left;
+				position: absolute;
+				left: 780px;
+				top: 27px;
+			}
+			
+			#Group24 {
+				width: 368px;
+				height: 100px;
+				position: absolute;
+				left: 680px;
+				top: 160px;
+			}
+			
+			#Rectangle60 {
+				width: 58px;
+				height: 58px;
+				object-fit: cover;
+				position: absolute;
+				left: 0px;
+				top: 25px;
+			}
+			
+			#Rectangle61 {
+				width: 101px;
+				height: 100px;
+				object-fit: cover;
+				position: absolute;
+				left: 137px;
+				top: 0px;
+			}
+			
+			#Rectangle62 {
+				width: 63px;
+				height: 63px;
+				object-fit: cover;
+				position: absolute;
+				left: 305px;
+				top: 20px;
+			}
+			
+			#Group19 {
+				width: 1728px;
+				height: 96px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Rectangle50 {
+				width: 1728px;
+				height: 96px;
+				background-color: rgb(26, 179, 133);
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Zensiphus_0001 {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 64px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 42px;
+				top: 12px;
+			}
+			
+			#Home_0001 {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 421px;
+				top: 45px;
+			}
+			
+			#AboutUs_0001 {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 1055px;
+				top: 45px;
+			}
+			
+			#WhatIsEcg_0001 {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 917px;
+				top: 45px;
+			}
+			
+			#Instruction_0002 {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 517px;
+				top: 44px;
+			}
+			
+			#EcgRecord {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 786px;
+				top: 45px;
+			}
+			
+			#Dashboard {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 656px;
+				top: 44px;
+			}
+			
+			#Rectangle51 {
+				width: 139px;
+				height: 41px;
+				background-color: black;
+				border-radius: 10px;
+				position: absolute;
+				left: 1558px;
+				top: 26px;
+			}
+			
+			#LogOut {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 15px;
+				font-family: Inter, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 1601px;
+				top: 37px;
+			}
+    </style>
+  </head>
+  <body>
+<div id="RootWrapperIntroduction">
+			<span id="Instruction">
+				Instruction
+			</span>
+			<span id="WelcomeToOurZensiphusIoTDeviceInThisPageWeWillTellYouStepByStepOfHowToUseOurDeviceToEnsureTheUsageToBeAsAccurateAsPossible">
+				welcome to our Zensiphus IoT device. In this page, we will tell you step by step of how to use our device to ensure  the usage to be as accurate as possible . 
+			</span>
+			<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4d3f9e83-9b37-435c-8677-c1caa1737fa5"
+			alt="image of Rectangle33"
+			id="Rectangle33">
+				
+			</img>
+			<span id="Step1WashingYourHand">
+				step 1: Washing your hand
+			</span>
+			<span id="Step2FindTheLocation">
+				step 2: Find the location
+			</span>
+			<span id="Step3PlaceEachNodeOnTheLocation">
+				step 3: Place each node on the location
+			</span>
+			<span id="Step4WaitForDevice">
+				step 4: Wait for device
+			</span>
+			<span id="Step5AllDone">
+				step 5: All done
+			</span>
+			<span id="WashingYourHandIsVeryCrucialAsIfThereIsSlightGermOrDustInTheDeviceSNodeTheAccuracyOfTheDeviceWillBeLower">
+				washing your hand is very crucial as if there is slight germ or dust in the device’s node the accuracy of the device will be lower. 
+			</span>
+			<span id="TheLocationOfEachLeadIs1LeftSideOfYourCollarBone2RightSideOfYourCollarBone3LeftSideOfYourLowerChest">
+				The location of each lead is 1. left side of your collar bone<br/>
+		2. right side of your collar bone<br/>
+		3. left side of your lower chest
+			</span>
+			<span id="PlaceTheNodeOnTheLocationFromPreviousStep">
+				Place the node on the location from previous step
+			</span>
+			<span id="WaitForTheDeviceToWorkingOnReceivingTheInformationThisMightTookACoupleMinuteBePatient">
+				Wait for the device to working on receiving the information. <br/>
+		This might took a couple minute. Be patient
+			</span>
+			<span id="AllSetAfterEveryStepAboveYourEcgDataWillBeReadyToUse">
+				All set!!After every step above, your ECG data will be ready to use!!
+			</span>
+			<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/bff6e7c9-c430-475a-a02f-ddf7e1bfc621"
+			alt="image of Rectangle34"
+			id="Rectangle34">
+				
+			</img>
+			<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/8b5e8d82-8be2-4af3-ad8f-47562eb544c9"
+			alt="image of Rectangle70"
+			id="Rectangle70">
+				
+			</img>
+			<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/f38427aa-ee1b-4baf-b4c9-dabeef376e7b"
+			alt="image of Rectangle71"
+			id="Rectangle71">
+				
+			</img>
+			<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b9a47002-d0ca-4b85-bfda-bc1f05ebe9bd"
+			alt="image of Rectangle72"
+			id="Rectangle72">
+				
+			</img>
+			<div id="Group18">
+				<span id="Zensiphus">
+					Zensiphus
+				</span>
+				<span id="Home">
+					Home
+				</span>
+				<span id="AboutUs">
+					About US
+				</span>
+				<span id="WhatIsEcg">
+					What is ECG? 
+				</span>
+				<span id="Instruction_0001">
+					Instruction
+				</span>
+				<span id="SignIn">
+					Sign in
+				</span>
+				<div id="Group26">
+					<div id="Rectangle59">
+						
+					</div>
+					<span id="ForMoreInformationOnZensiphusOrToScheduleADemoPleaseContactUsAt66XXxxXxxxInfoZensiphusCom">
+						 For more information on Zensiphus or to schedule a demo, please contact us at  <br/>
+		+66 x-xxx-xxxx<br/>
+		info@zensiphus.com
+					</span>
+					<span id="ContactUs">
+						Contact us
+					</span>
+					<div id="Group24">
+						<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/a8d0dc71-1244-4849-bb0f-8db2229fc552"
+			alt="image of Rectangle60"
+			id="Rectangle60">
+							
+						</img>
+						<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/45daed24-a9d3-4841-b9a1-ede061011578"
+			alt="image of Rectangle61"
+			id="Rectangle61">
+							
+						</img>
+						<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9146726f-03bb-4c31-9354-54f15f8eedd1"
+			alt="image of Rectangle62"
+			id="Rectangle62">
+							
+						</img>
+					</div>
+				</div>
+			</div>
+			<div id="Group19">
+				<div id="Rectangle50">
+					
+				</div>
+				<span id="Zensiphus_0001">
+					<a href="launch_after.html">Zensiphus</a>
+				</span>
+				<span id="Home_0001">
+					<a href="launch_after.html">Home</a>
+				</span>
+				<span id="AboutUs_0001">
+					<a href="about_us_after.html">About US</a>
+				</span>
+				<span id="WhatIsEcg_0001">
+					<a href="what_ecg_after.html">What is ECG? </a>
+				</span>
+				<span id="Instruction_0002">
+					<a href="instruction_after.html">instruction</a>
+				</span>
+				<span id="EcgRecord">
+					<a href="what_ecg_after.html">ECG record</a>
+				</span>
+				<span id="Dashboard">
+					<a href="dashboard.html">Dashboard</a>
+				</span>
+				<div id="Rectangle51">
+					
+				</div>
+				<span id="LogOut">
+					<a href="log_in.html">Log out</a>
+				</span>
+			</div>
+		</div>
+  </body>
+</html>

@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+* {
+				margin: 0px;
+				font-family: Helvetica, "Helvetica Neue", Roboto, Noto, Arial, sans-serif;
+			}
+
+			a {
+				text-decoration: none;
+				color: white;
+			}
+			
+			#RootWrapperDashboard {
+				min-height: 100vh;
+				background-color: white;
+				position: relative;
+			}
+			
+			#Rectangle75 {
+				width: 486px;
+				height: 267px;
+				box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+				background-color: rgb(255, 255, 232);
+				border-radius: 21px;
+				position: absolute;
+				left: 53px;
+				top: 148px;
+			}
+			
+			#Rectangle76 {
+				width: 486px;
+				height: 267px;
+				box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+				background-color: rgb(255, 255, 232);
+				border-radius: 21px;
+				position: absolute;
+				left: 634px;
+				top: 148px;
+			}
+			
+			#Rectangle77 {
+				width: 486px;
+				height: 267px;
+				box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+				background-color: rgb(255, 255, 232);
+				border-radius: 21px;
+				position: absolute;
+				left: 1189px;
+				top: 148px;
+			}
+			
+			#ThisWillBeTheDashboardValue {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 40px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: center;
+				width: 404px;
+				min-height: 151px;
+				position: absolute;
+				left: 92px;
+				top: 211px;
+				height: 151px;
+			}
+			
+			#ThisWillBeTheDashboardValue_0001 {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 40px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: center;
+				width: 404px;
+				min-height: 151px;
+				position: absolute;
+				left: 675px;
+				top: 211px;
+				height: 151px;
+			}
+			
+			#ThisWillBeTheDashboardValue_0002 {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 40px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: center;
+				width: 404px;
+				min-height: 151px;
+				position: absolute;
+				left: 1230px;
+				top: 211px;
+				height: 151px;
+			}
+			
+			#Rectangle78 {
+				width: 486px;
+				height: 72px;
+				background-color: rgb(255, 241, 193);
+				border-bottom-right-radius: 21px;
+				border-bottom-left-radius: 21px;
+				position: absolute;
+				left: 53px;
+				top: 343px;
+			}
+			
+			#Rectangle79 {
+				width: 486px;
+				height: 72px;
+				background-color: rgb(255, 241, 193);
+				border-bottom-right-radius: 21px;
+				border-bottom-left-radius: 21px;
+				position: absolute;
+				left: 635px;
+				top: 343px;
+			}
+			
+			#Rectangle78_0001 {
+				width: 486px;
+				height: 72px;
+				background-color: rgb(255, 241, 193);
+				border-bottom-right-radius: 21px;
+				border-bottom-left-radius: 21px;
+				position: absolute;
+				left: 1189px;
+				top: 343px;
+			}
+			
+			#Frame8 {
+				width: 1259px;
+				height: 403px;
+				position: absolute;
+				box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+				left: 235px;
+				top: 530px;
+			}
+			
+			#Group9 {
+				width: 1259px;
+				height: 403px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Rectangle26 {
+				width: 1259px;
+				height: 403px;
+				box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+				background-color: rgb(255, 255, 232);
+				border-radius: 20px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Group10 {
+				width: 1148px;
+				height: 153px;
+				position: absolute;
+				left: 52px;
+				top: 109px;
+			}
+			
+			#Line16 {
+				width: 1148px;
+				height: 0px;
+				border-top: solid 2px rgba(125, 125, 125, 0.5);
+				position: absolute;
+				left: 0px;
+				top: 153px;
+			}
+			
+			#Line17 {
+				width: 1148px;
+				height: 0px;
+				border-top: solid 2px rgba(125, 125, 125, 0.5);
+				position: absolute;
+				left: 0px;
+				top: 73px;
+			}
+			
+			#Line18 {
+				width: 1148px;
+				height: 0px;
+				border-top: solid 2px rgba(125, 125, 125, 0.5);
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Ellipse8 {
+				width: 17px;
+				height: 17px;
+				object-fit: cover;
+				position: absolute;
+				left: 619px;
+				top: 73px;
+			}
+			
+			#Ellipse9 {
+				width: 17px;
+				height: 17px;
+				object-fit: cover;
+				position: absolute;
+				left: 804px;
+				top: 180px;
+			}
+			
+			#Ellipse10 {
+				width: 17px;
+				height: 17px;
+				object-fit: cover;
+				position: absolute;
+				left: 983px;
+				top: 245px;
+			}
+			
+			#Ellipse11 {
+				width: 17px;
+				height: 17px;
+				object-fit: cover;
+				position: absolute;
+				left: 1162px;
+				top: 101px;
+			}
+			
+			#_1Jan {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 24px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 67px;
+				top: 351px;
+			}
+			
+			#_2Jan {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 24px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 246px;
+				top: 351px;
+			}
+			
+			#_3Jan {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 24px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 425px;
+				top: 351px;
+			}
+			
+			#_4Jan {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 24px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 604px;
+				top: 351px;
+			}
+			
+			#_5Jan {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 24px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 783px;
+				top: 351px;
+			}
+			
+			#_6Jan {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 24px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 962px;
+				top: 351px;
+			}
+			
+			#_7Jan {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 24px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 1141px;
+				top: 351px;
+			}
+			
+			#DateMonth {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 14px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: left;
+				width: 105px;
+				min-height: 38px;
+				position: absolute;
+				left: 1147px;
+				top: 25px;
+				height: 38px;
+			}
+			
+			#Ellipse5 {
+				width: 17px;
+				height: 17px;
+				object-fit: cover;
+				position: absolute;
+				left: 93px;
+				top: 110px;
+			}
+			
+			#Ellipse6 {
+				width: 17px;
+				height: 17px;
+				object-fit: cover;
+				position: absolute;
+				left: 267px;
+				top: 151px;
+			}
+			
+			#Ellipse7 {
+				width: 17px;
+				height: 17px;
+				object-fit: cover;
+				position: absolute;
+				left: 446px;
+				top: 142px;
+			}
+			
+			#Line3 {
+				width: 162px;
+				height: 0px;
+				border-top: dashed 1px black;
+				position: absolute;
+				left: 110px;
+				top: 120px;
+				transform: rotate(-346deg);
+				transform-origin: top left;
+			}
+			
+			#Line4 {
+				width: 162px;
+				height: 0px;
+				border-top: dashed 1px black;
+				position: absolute;
+				left: 284px;
+				top: 160px;
+				transform: rotate(-3deg);
+				transform-origin: top left;
+			}
+			
+			#Line5 {
+				width: 171px;
+				height: 0px;
+				border-top: dashed 1px black;
+				position: absolute;
+				left: 463px;
+				top: 151px;
+				transform: rotate(-24deg);
+				transform-origin: top left;
+			}
+			
+			#Line6 {
+				width: 201px;
+				height: 0px;
+				border-top: dashed 1px black;
+				position: absolute;
+				left: 634px;
+				top: 81px;
+				transform: rotate(-328deg);
+				transform-origin: top left;
+			}
+			
+			#Line7 {
+				width: 175px;
+				height: 0px;
+				border-top: dashed 1px black;
+				position: absolute;
+				left: 821px;
+				top: 189px;
+				transform: rotate(-338deg);
+				transform-origin: top left;
+			}
+			
+			#Line8 {
+				width: 216px;
+				height: 0px;
+				border-top: dashed 1px black;
+				position: absolute;
+				left: 1000px;
+				top: 254px;
+				transform: rotate(-41deg);
+				transform-origin: top left;
+			}
+			
+			#Group6 {
+				width: 1162px;
+				height: 21px;
+				position: absolute;
+				left: 46px;
+				top: 319px;
+			}
+			
+			#Line2 {
+				width: 1162px;
+				height: 0px;
+				border-top: solid 1px black;
+				position: absolute;
+				left: 0px;
+				top: 11px;
+			}
+			
+			#Line9 {
+				width: 21px;
+				height: 0px;
+				border-top: solid 1px black;
+				position: absolute;
+				left: 47px;
+				top: 0px;
+				transform: rotate(-270deg);
+				transform-origin: top left;
+			}
+			
+			#Line10 {
+				width: 21px;
+				height: 0px;
+				border-top: solid 1px black;
+				position: absolute;
+				left: 230px;
+				top: 0px;
+				transform: rotate(-270deg);
+				transform-origin: top left;
+			}
+			
+			#Line11 {
+				width: 21px;
+				height: 0px;
+				border-top: solid 1px black;
+				position: absolute;
+				left: 409px;
+				top: 0px;
+				transform: rotate(-270deg);
+				transform-origin: top left;
+			}
+			
+			#Line12 {
+				width: 21px;
+				height: 0px;
+				border-top: solid 1px black;
+				position: absolute;
+				left: 582px;
+				top: 0px;
+				transform: rotate(-270deg);
+				transform-origin: top left;
+			}
+			
+			#Line13 {
+				width: 21px;
+				height: 0px;
+				border-top: solid 1px black;
+				position: absolute;
+				left: 767px;
+				top: 0px;
+				transform: rotate(-270deg);
+				transform-origin: top left;
+			}
+			
+			#Line14 {
+				width: 21px;
+				height: 0px;
+				border-top: solid 1px black;
+				position: absolute;
+				left: 946px;
+				top: 0px;
+				transform: rotate(-270deg);
+				transform-origin: top left;
+			}
+			
+			#Line15 {
+				width: 21px;
+				height: 0px;
+				border-top: solid 1px black;
+				position: absolute;
+				left: 1125px;
+				top: 0px;
+				transform: rotate(-270deg);
+				transform-origin: top left;
+			}
+			
+			#EcgValue {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 15px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				transform: rotate(-90deg);
+				transform-origin: top left;
+			}
+			
+			#Group18 {
+				width: 1728px;
+				height: 96px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Rectangle50 {
+				width: 1728px;
+				height: 96px;
+				background-color: rgb(26, 179, 133);
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Zensiphus {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 64px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 42px;
+				top: 12px;
+			}
+			
+			#Home {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 421px;
+				top: 45px;
+			}
+			
+			#AboutUs {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 1055px;
+				top: 45px;
+			}
+			
+			#WhatIsEcg {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 917px;
+				top: 45px;
+			}
+			
+			#Instruction {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 517px;
+				top: 44px;
+			}
+			
+			#EcgRecord {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 786px;
+				top: 45px;
+			}
+			
+			#Dashboard {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 656px;
+				top: 44px;
+			}
+			
+			#Rectangle51 {
+				width: 139px;
+				height: 41px;
+				background-color: black;
+				border-radius: 10px;
+				position: absolute;
+				left: 1558px;
+				top: 26px;
+			}
+			
+			#LogOut {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 15px;
+				font-family: Inter, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 1601px;
+				top: 37px;
+			}
+    </style>
+  </head>
+  <body>
+<div id="RootWrapperDashboard">
+			<div id="Rectangle75">
+				
+			</div>
+			<div id="Rectangle76">
+				
+			</div>
+			<div id="Rectangle77">
+				
+			</div>
+			<span id="ThisWillBeTheDashboardValue">
+				this will be the dashboard value
+			</span>
+			<span id="ThisWillBeTheDashboardValue_0001">
+				this will be the dashboard value
+			</span>
+			<span id="ThisWillBeTheDashboardValue_0002">
+				this will be the dashboard value
+			</span>
+			<div id="Rectangle78">
+				
+			</div>
+			<div id="Rectangle79">
+				
+			</div>
+			<div id="Rectangle78_0001">
+				
+			</div>
+			<div id="Frame8">
+				<div id="Group9">
+					<div id="Rectangle26">
+						
+					</div>
+					<div id="Group10">
+						<div id="Line16">
+							
+						</div>
+						<div id="Line17">
+							
+						</div>
+						<div id="Line18">
+							
+						</div>
+					</div>
+					<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/6a52fc0d-7f24-48ce-9103-a704633d7c38"
+			alt="icon"
+			id="Ellipse8">
+						
+					</img>
+					<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d1b5b569-b861-4fe2-864b-38981543d8f9"
+			alt="icon"
+			id="Ellipse9">
+						
+					</img>
+					<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4150985d-790f-4ec5-87f1-9ec77732f812"
+			alt="icon"
+			id="Ellipse10">
+						
+					</img>
+					<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/92aa4c07-fbc7-4217-9747-657cdacff73d"
+			alt="icon"
+			id="Ellipse11">
+						
+					</img>
+					<span id="_1Jan">
+						1 Jan
+					</span>
+					<span id="_2Jan">
+						2 Jan
+					</span>
+					<span id="_3Jan">
+						3 Jan
+					</span>
+					<span id="_4Jan">
+						4 Jan
+					</span>
+					<span id="_5Jan">
+						5 Jan
+					</span>
+					<span id="_6Jan">
+						6 Jan
+					</span>
+					<span id="_7Jan">
+						7 Jan
+					</span>
+					<span id="DateMonth">
+						{"Date<->Month"}
+					</span>
+					<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/99e7b846-9e44-4ce8-b41e-217c5fedefd3"
+			alt="icon"
+			id="Ellipse5">
+						
+					</img>
+					<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/0bb3a1d5-eaf0-454e-8307-54c0cf2e1946"
+			alt="icon"
+			id="Ellipse6">
+						
+					</img>
+					<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/be004288-ad55-4ed3-9893-247faf36ff0c"
+			alt="icon"
+			id="Ellipse7">
+						
+					</img>
+					<div id="Line3">
+						
+					</div>
+					<div id="Line4">
+						
+					</div>
+					<div id="Line5">
+						
+					</div>
+					<div id="Line6">
+						
+					</div>
+					<div id="Line7">
+						
+					</div>
+					<div id="Line8">
+						
+					</div>
+					<div id="Group6">
+						<div id="Line2">
+							
+						</div>
+						<div id="Line9">
+							
+						</div>
+						<div id="Line10">
+							
+						</div>
+						<div id="Line11">
+							
+						</div>
+						<div id="Line12">
+							
+						</div>
+						<div id="Line13">
+							
+						</div>
+						<div id="Line14">
+							
+						</div>
+						<div id="Line15">
+							
+						</div>
+					</div>
+				</div>
+				<span id="EcgValue">
+					ECG value
+				</span>
+			</div>
+			<div id="Group18">
+				<div id="Rectangle50">
+					
+				</div>
+				<span id="Zensiphus">
+					<a href="launch_after.html">Zensiphus</a>
+				</span>
+				<span id="Home">
+					<a href="launch_after.html">Home</a>
+				</span>
+				<span id="AboutUs">
+					<a href="about_us_after.html">About US</a>
+				</span>
+				<span id="WhatIsEcg">
+					<a href="what_ecg_after.html">What is ECG? </a>
+				</span>
+				<span id="Instruction">
+					<a href="instruction_after.html">instruction</a>
+				</span>
+				<span id="EcgRecord">
+					<a href="ECG_file_page.html">ECG record</a>
+				</span>
+				<span id="Dashboard">
+					<a href="dashboard.html">Dashboard</a>
+				</span>
+				<div id="Rectangle51">
+					
+				</div>
+				<span id="LogOut">
+					<a href="log_in.html">Log out</a>
+				</span>
+			</div>
+		</div>
+  </body>
+</html>

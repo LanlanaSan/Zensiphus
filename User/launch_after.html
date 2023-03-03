@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+* {
+				margin: 0px;
+				font-family: Helvetica, "Helvetica Neue", Roboto, Noto, Arial, sans-serif;
+			}
+
+			a {
+				text-decoration: none;
+				color: white;
+			}
+			
+			#RootWrapperLandingAfterLog {
+				min-height: 100vh;
+				background-color: white;
+				position: relative;
+			}
+			
+			#WelcomeUsername01 {
+				color: rgb(0, 101, 71);
+				text-overflow: ellipsis;
+				font-size: 24px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 169px;
+				top: 152px;
+			}
+			
+			#Frame9 {
+				width: 1749px;
+				height: 959px;
+				position: absolute;
+				left: -48px;
+				top: 158px;
+			}
+			
+			#Group27 {
+				width: 1748px;
+				height: 1559px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Ellipse24 {
+				width: 269px;
+				height: 269px;
+				background-color: rgb(255, 241, 193);
+				border-radius: 269px / 269px;
+				position: absolute;
+				left: 1380px;
+				top: 0px;
+			}
+			
+			#Rectangle80 {
+				width: 1403px;
+				height: 509px;
+				background-color: rgb(194, 255, 237);
+				position: absolute;
+				left: 0px;
+				top: 992px;
+				transform: rotate(-28deg);
+				transform-origin: top left;
+			}
+			
+			#Rectangle81 {
+				width: 1346px;
+				height: 532px;
+				background-color: rgb(194, 255, 237);
+				position: absolute;
+				left: 334px;
+				top: 676px;
+				transform: rotate(-45deg);
+				transform-origin: top left;
+			}
+			
+			#LetSDoTheDairyChecking {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 40px;
+				font-family: Asap, sans-serif;
+				font-weight: 600;
+				text-align: left;
+				position: absolute;
+				left: 151px;
+				top: 213px;
+			}
+			
+			#Rectangle82 {
+				width: 299px;
+				height: 105px;
+				background-color: rgb(0, 142, 161);
+				border-radius: 33px;
+				position: absolute;
+				left: 218px;
+				top: 292px;
+			}
+			
+			#StartEcg {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 40px;
+				font-family: Asap, sans-serif;
+				font-weight: 600;
+				text-align: left;
+				width: 184px;
+				min-height: 66px;
+				position: absolute;
+				left: 281px;
+				top: 311px;
+				height: 66px;
+			}
+			
+			#Rectangle84 {
+				width: 717px;
+				height: 423px;
+				box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+				background-color: white;
+				border: solid 1px black;
+				border-radius: 36px;
+				position: absolute;
+				left: 84px;
+				top: 559px;
+			}
+			
+			#Rectangle85 {
+				width: 717px;
+				height: 92px;
+				background-color: rgb(0, 142, 161);
+				border: solid 1px black;
+				border-top-left-radius: 36px;
+				border-top-right-radius: 36px;
+				position: absolute;
+				left: 84px;
+				top: 559px;
+			}
+			
+			#LastWeekCheck {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 48px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				width: 395px;
+				min-height: 120px;
+				position: absolute;
+				left: 133px;
+				top: 559px;
+				height: 120px;
+			}
+			
+			#_87Bpm {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 96px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 295px;
+				top: 716px;
+			}
+			
+			#Group18 {
+				width: 1728px;
+				height: 96px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Rectangle50 {
+				width: 1728px;
+				height: 96px;
+				background-color: rgb(26, 179, 133);
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Zensiphus {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 64px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 42px;
+				top: 12px;
+			}
+			
+			#Home {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 421px;
+				top: 45px;
+			}
+			
+			#AboutUs {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 1055px;
+				top: 45px;
+			}
+			
+			#WhatIsEcg {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 917px;
+				top: 45px;
+			}
+			
+			#Instruction {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 517px;
+				top: 44px;
+			}
+			
+			#EcgRecord {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 786px;
+				top: 45px;
+			}
+			
+			#Dashboard {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 656px;
+				top: 44px;
+			}
+			
+			#Rectangle51 {
+				width: 139px;
+				height: 41px;
+				background-color: black;
+				border-radius: 10px;
+				position: absolute;
+				left: 1558px;
+				top: 26px;
+			}
+			
+			#LogOut {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 15px;
+				font-family: Inter, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 1601px;
+				top: 37px;
+			}
+    </style>
+  </head>
+  <body>
+<div id="RootWrapperLandingAfterLog">
+			<span id="WelcomeUsername01">
+				Welcome “username01”
+			</span>
+			<div id="Frame9">
+				<div id="Group27">
+					<div id="Ellipse24">
+						
+					</div>
+					<div id="Rectangle80">
+						
+					</div>
+					<div id="Rectangle81">
+						
+					</div>
+				</div>
+			</div>
+			<span id="LetSDoTheDairyChecking">
+				Let’s do the dairy checking!
+			</span>
+			<div id="Rectangle82">
+				
+			</div>
+			<span id="StartEcg">
+				start ECG
+			</span>
+			<div id="Rectangle84">
+				
+			</div>
+			<div id="Rectangle85">
+				
+			</div>
+			<span id="LastWeekCheck">
+				last week check
+			</span>
+			<span id="_87Bpm">
+				87BPM
+			</span>
+			<div id="Group18">
+				<div id="Rectangle50">
+					
+				</div>
+				<span id="Zensiphus">
+          <a href="launch_after.html">Zensiphus</a>
+				</span>
+				<span id="Home">
+          <a href="launch_after.html">Home</a>
+				</span>
+				<span id="AboutUs">
+					<a href="about_us_after.html">About Us</a>
+				</span>
+				<span id="WhatIsEcg">
+          <a href="what_ecg_after.html">What is ECG?</a>				 
+				</span>
+				<span id="Instruction">
+          <a href="instruction_after.html">instruction</a>		
+				</span>
+				<span id="EcgRecord">
+					<a href="ECG_file_page.html">ECG record</a>
+				</span>
+				<span id="Dashboard">
+					<a href="dashboard.html">Dashboard</a>
+				</span>
+				<div id="Rectangle51">
+					
+				</div>
+				<span id="LogOut">
+					<a href="log_in.html">Log out</a>
+				</span>
+			</div>
+		</div>
+  </body>
+</html>

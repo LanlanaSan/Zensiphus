@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+* {
+				margin: 0px;
+				font-family: Helvetica, "Helvetica Neue", Roboto, Noto, Arial, sans-serif;
+			}
+
+			a {
+				text-decoration: none;
+				color: white;
+			}
+			
+			#RootWrapperEcg {
+				min-height: 100vh;
+				background-color: white;
+				position: relative;
+			}
+			
+			#Rectangle2 {
+				width: 1440px;
+				height: 342px;
+				object-fit: cover;
+				position: absolute;
+				left: 145px;
+				top: 258px;
+			}
+			
+			#Group1 {
+				width: 497px;
+				height: 331px;
+				position: absolute;
+				left: 617px;
+				top: 844px;
+			}
+			
+			#Rectangle4 {
+				width: 360px;
+				height: 66px;
+				background-color: rgb(187, 255, 243);
+				border-radius: 15px;
+				position: absolute;
+				left: 57px;
+				top: 14px;
+			}
+			
+			#Rectangle3 {
+				width: 497px;
+				height: 331px;
+				object-fit: cover;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Ecg {
+				color: black;
+				text-overflow: ellipsis;
+				font-size: 64px;
+				font-family: jsMath-cmbx10, sans-serif;
+				font-weight: 700;
+				text-align: center;
+				width: 476px;
+				min-height: 91px;
+				position: absolute;
+				left: 627px;
+				top: 167px;
+				height: 91px;
+			}
+			
+			#Group5 {
+				width: 357px;
+				height: 125px;
+				position: absolute;
+				left: 687px;
+				top: 667px;
+			}
+			
+			#Rectangle11 {
+				width: 194px;
+				height: 125px;
+				object-fit: cover;
+				position: absolute;
+				left: 163px;
+				top: 0px;
+			}
+			
+			#Rectangle12 {
+				width: 163px;
+				height: 125px;
+				background-color: rgb(88, 56, 153);
+				border-top-left-radius: 15px;
+				border-bottom-left-radius: 15px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Bpm {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 24px;
+				font-family: "IBM Plex Sans Thai Looped", sans-serif;
+				font-weight: 700;
+				text-align: center;
+				width: 118px;
+				min-height: 80px;
+				position: absolute;
+				left: 22px;
+				top: 45px;
+				height: 80px;
+			}
+			
+			#Group18 {
+				width: 1728px;
+				height: 96px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Rectangle50 {
+				width: 1728px;
+				height: 96px;
+				background-color: rgb(26, 179, 133);
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			
+			#Zensiphus {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 64px;
+				font-family: Asap, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 42px;
+				top: 12px;
+			}
+			
+			#Home {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 421px;
+				top: 45px;
+			}
+			
+			#AboutUs {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 1055px;
+				top: 45px;
+			}
+			
+			#WhatIsEcg {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 917px;
+				top: 45px;
+			}
+			
+			#Instruction {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 517px;
+				top: 44px;
+			}
+			
+			#EcgRecord {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 786px;
+				top: 45px;
+			}
+			
+			#Dashboard {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 16px;
+				font-family: Asap, sans-serif;
+				font-weight: 400;
+				text-align: left;
+				position: absolute;
+				left: 656px;
+				top: 44px;
+			}
+			
+			#Rectangle51 {
+				width: 139px;
+				height: 41px;
+				background-color: black;
+				border-radius: 10px;
+				position: absolute;
+				left: 1558px;
+				top: 26px;
+			}
+			
+			#LogOut {
+				color: white;
+				text-overflow: ellipsis;
+				font-size: 15px;
+				font-family: Inter, sans-serif;
+				font-weight: 700;
+				text-align: left;
+				position: absolute;
+				left: 1601px;
+				top: 37px;
+			}
+    </style>
+  </head>
+  <body>
+<div id="RootWrapperEcg">
+			<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/5cade278-bfb4-4f1c-9c90-03d55d0baa75"
+			alt="image of Rectangle2"
+			id="Rectangle2">
+				
+			</img>
+			<div id="Group1">
+				<div id="Rectangle4">
+					
+				</div>
+				<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ad9e7ad1-1d32-4628-8bb7-24a01f75f098"
+			alt="image of Rectangle3"
+			id="Rectangle3">
+					
+				</img>
+			</div>
+			<span id="Ecg">
+				ECG
+			</span>
+			<div id="Group5">
+				<img src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b774db75-7c2f-46bc-b783-c5ce2970ae74"
+			alt="image of Rectangle11"
+			id="Rectangle11">
+					
+				</img>
+				<div id="Rectangle12">
+					
+				</div>
+				<span id="Bpm">
+					BPM
+				</span>
+			</div>
+			<div id="Group18">
+				<div id="Rectangle50">
+					
+				</div>
+				<span id="Zensiphus">
+					<a href="launch_after.html">Zensiphus</a>
+				</span>
+				<span id="Home">
+					<a href="launch_after.html">Home</a>
+				</span>
+				<span id="AboutUs">
+					<a href="about_us_after.html">About US</a>
+				</span>
+				<span id="WhatIsEcg">
+					<a href="what_ecg_after.html">What is ECG? </a>
+				</span>
+				<span id="Instruction">
+					<a href="instruction_after.html">instruction</a>
+				</span>
+				<span id="EcgRecord">
+					<a href="ECG_file_page.html">ECG record</a>
+				</span>
+				<span id="Dashboard">
+					<a href="dashboard.html">Dashboard</a>
+				</span>
+				<div id="Rectangle51">
+					
+				</div>
+				<span id="LogOut">
+					<a href="log_in.html">Log out</a>
+				</span>
+			</div>
+		</div>
+  </body>
+</html>
