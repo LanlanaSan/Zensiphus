@@ -1,24 +1,45 @@
 Welcome to the admin page for the ECG monitoring website. As an administrator, you have access to various features that allow you to manage and monitor the website's functionality.
 
 Dashboard:
-The dashboard provides an overview of the website's performance, including the number of registered users, the number of ECG readings uploaded, and other important metrics.
+The dashboard provides an overview of the website's performance, 
+including the number of registered users, the number of ECG readings 
+uploaded, and other important metrics.
 
 User Management:
-The user management section allows you to manage the users' accounts on the website. You can add new users, edit existing user information, or delete a user account if necessary.
+The user management section allows you to manage the users' accounts 
+on the website. You can add new users, edit existing user information,
+or delete a user account if necessary.
 
 ECG Data Management:
-The ECG data management section allows you to monitor and manage the ECG readings uploaded to the website. You can view ECG data by user, date, or other parameters. You can also download ECG data in various formats for further analysis.
+The ECG data management section allows you to monitor and manage the 
+ECG readings uploaded to the website. You can view ECG data by user, 
+date, or other parameters. You can also download ECG data in various 
+formats for further analysis.
 
 Alerts and Notifications:
-The alerts and notifications section allows you to set up alerts and notifications for specific users or groups of users. For example, you can set up notifications for abnormal ECG readings, reminders for scheduled appointments, or notifications for overdue payments.
+The alerts and notifications section allows you to set up alerts and 
+notifications for specific users or groups of users. For example, you 
+can set up notifications for abnormal ECG readings, reminders for 
+scheduled appointments, or notifications for overdue payments.
 
 Settings:
-The settings section allows you to customize the website's functionality and appearance. You can change the website's theme, set up payment options, or configure other settings to ensure the website's smooth operation.
+The settings section allows you to customize the website's 
+functionality and appearance. You can change the website's theme, 
+set up payment options, or configure other settings to ensure the 
+website's smooth operation.
 
 Reports:
-The reports section allows you to generate various reports on the website's performance. You can generate reports on user activity, ECG data, or other metrics to analyze the website's performance and identify areas for improvement.
+The reports section allows you to generate various reports on the 
+website's performance. You can generate reports on user activity, 
+ECG data, or other metrics to analyze the website's performance and 
+identify areas for improvement.
 
 Logs:
-The logs section allows you to monitor the website's activity and identify any issues or errors. You can view logs for user activity, ECG data, or other metrics to identify potential issues or errors that need to be addressed.
+The logs section allows you to monitor the website's activity and 
+identify any issues or errors. You can view logs for user activity, 
+ECG data, or other metrics to identify potential issues or errors 
+that need to be addressed.
 
-We hope you find the admin page useful and easy to use. If you have any questions or feedback, please feel free to contact our support team.
+We hope you find the admin page useful and easy to use. If you have 
+any questions or feedback, please feel free to contact our support 
+team.
