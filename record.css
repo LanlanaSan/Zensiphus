@@ -1,0 +1,39 @@
+body{
+    background-image: url("images/forest.png");
+    background-size:cover;
+} 
+
+.main-container{
+
+    background-color: rgba(0, 66, 128, 0.603);
+    width: 85%;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+
+}
+
+.record-box{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    display: inline-block;
+    background-color: rgb(211, 211, 211);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.record-box:hover{
+    background-color: rgb(161, 161, 161);
+}
+
+.record-box span{
+    display: block;
+    text-align: center;
+    margin-top: 1%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: larger;
+
+}

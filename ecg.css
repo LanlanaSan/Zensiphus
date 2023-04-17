@@ -1,0 +1,29 @@
+body {
+    background-image: url("resource/forest.png");
+    background-size: cover;
+}
+
+.graph {
+    width: 90vw;
+    margin: auto;
+    background-color: rgb(0, 60, 128);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.check_ecg {
+    display: block;
+    width: 180px;
+    height: 60px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(0, 134, 134);
+    color: white;
+}
+
+.check_ecg:hover {
+    background-color: rgb(0, 90, 90);
+}

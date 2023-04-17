@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="charset" content="UTF-8">
+    <title>Record | Zensiphus</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="Author" content="Tech Feast JBS">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="profile.js"></script>
+</head>
+
+<body>
+    <div class="header_m">
+        <ul>
+            <li class="ecg">Zensiphus</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="instruction.html">Instruction</a></li>
+            <li><a href="ecg.html">Dashboard</a></li>
+            <li><a href="record.html">ECG record</a></li>
+            <li><a href="whatisecg.html">What is ECG?</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <button id="signout_btn" class="login_btn">Log in </button>
+    </div>
+
+
+    <div class="table_div">
+        <h1>Profile</h1>
+
+        <table>
+            <tr>
+                <th>USERNAME: </th>
+                <th><input type="text" id="f_name" placeholder="full name"></th>
+            </tr>
+            <tr>
+                <th>DOB: </th>
+                <th><input type="date" id="dob"></th>
+            </tr>
+            <tr>
+                <th>DEVICE LINKED: </th>
+                <th><input type="text" disabled id="device_mac" maxlength="17" pattern="[A-Z:0-9]" placeholder="No device Linked"></th>
+            </tr>
+            <tr>
+                <th><button id="link_btn" class="link_device">Link Device</button></th>
+                <th id="save_th"><button id="save_btn" class="save_device">SAVE</button></th>
+            </tr>
+    
+        </table>
+
+    </div>
+
+</body>
+
+
+
+
+</html>

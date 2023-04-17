@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="charset" content="UTF-8">
+    <title>HOME | Zensiphus</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="Author" content="Tech Feast JBS">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="initialization_script.js"></script>
+</head>
+
+
+<body>
+    <div class="header_m">
+        <ul>
+            <li class="ecg">Zensiphus</li>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="instruction.html">Instruction</a></li>
+            <li><a href="ecg.html">Dashboard</a></li>
+            <li><a href="record.html">ECG record</a></li>
+            <li><a href="whatisecg.html">What is ECG?</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <button id="signout_btn" class="login_btn">Log in </button>
+    </div>
+    <h2 class="head_2" id="welcome_txt"></h2>
+    <h3 class="head_3">Let's do the daily checking!</h3>
+    <button class="ecg_btn" onclick="open_window()">View Profile</button>
+
+<script>
+    function open_window(){
+        window.location.href = "profile.html";
+    }
+</script>
+
+
+</body> 
+
+
+
+
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-image: url("resource/forest.png");
+    background-size: cover;
+}
+
+.head_2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    font-weight: bolder;
+    margin-left: 60px;
+    padding-top: 30px;
+    color: rgb(0, 129, 112);
+    ;
+}
+
+.head_3 {
+    font-size: 25px;
+    font-weight: 30px;
+    padding: 0px;
+    padding-left: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ecg_btn {
+    display: block;
+    width: 200px;
+    height: 60px;
+    border-radius: 25px;
+    margin-left: 6%;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(10, 153, 189);
+    border-color: rgb(10, 153, 189);
+    color: white;
+    font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ecg_btn:hover {
+    background-color: rgb(4, 63, 87);
+    ;
+}
