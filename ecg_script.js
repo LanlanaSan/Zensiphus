@@ -19,6 +19,9 @@ var device_time = null;
 var intervalId = null;
 var device_state = false;
 
+var pending_task = false;
+var first_run = false;
+
 var ecg_values = [];
 
 
@@ -104,35 +107,44 @@ var chart = new Chart(ctx, {
 function set_listener() {
     const device_online = ref(db, 'Devices/' + device + '/states/timestamp');
     onValue(device_online, (snapshot) => {
-         device_time = snapshot.val();
-         intervalId = window.setInterval(function(){
+        device_time = snapshot.val();
+        update_status();
+        intervalId = window.setInterval(function () {
             update_status();
-          }, 2000);
-        
+        }, 2000);
+
     })
 
 
     const device_ref = ref(db, 'Devices/' + device + '/setting/get_new_ecg');
     onValue(device_ref, (snapshot) => {
         const data = snapshot.val();
-        if (!data && update_ecg) {
+        if (!data && update_ecg && first_run && device_state) {
             update_ecg = false;
             get_ecg(device);
+        } else {
+            pending_task = true;
         }
     })
 
 
 }
 
-function update_status(){
-    if(Date.now() - device_time > 120000){
+function update_status() {
+    if (Date.now() - device_time > 120000) {
         document.getElementById("top_txt").textContent = "DEVICE OFFLINE";
         document.getElementById("top_txt").style.color = "#a83232"
         device_state = false;
-    }else{
+    } else {
         document.getElementById("top_txt").textContent = "LIVE ECG";
         document.getElementById("top_txt").style.color = "#2ca321"
         device_state = true;
+    }
+
+    if (device_state && pending_task) {
+        update_ecg = false;
+        get_ecg(device);
+        pending_task = false;
     }
 }
 
@@ -199,7 +211,7 @@ function check_user() {
 
 function check_ecg() {
 
-    if(!device_state){
+    if (!device_state) {
         Swal.fire({
             title: 'DEVICE OFFLINE',
             text: 'Make sure ECG device is running and connected to internet. If problem presists try restarting device.',
@@ -314,15 +326,15 @@ async function get_ecg(device) {
 
     const date = new Date();
 
-let currentDay= String(date.getDate()).padStart(2, '0');
+    let currentDay = String(date.getDate()).padStart(2, '0');
 
-let currentMonth = String(date.getMonth()+1);
+    let currentMonth = String(date.getMonth() + 1);
 
-let currentYear = date.getFullYear();
+    let currentYear = date.getFullYear();
 
-// we will display the date as DD-MM-YYYY 
+    // we will display the date as DD-MM-YYYY 
 
-let currentDate = `${currentYear}-${currentMonth}-${currentDay}`;
+    let currentDate = `${currentYear}-${currentMonth}-${currentDay}`;
 
     const docRef = doc(ft, device, currentDate);
     const docSnap = await getDoc(docRef);
