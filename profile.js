@@ -1,3 +1,4 @@
+
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
 import { getAuth, signOut, updateProfile, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js";
@@ -229,7 +230,7 @@ function link_device() {
 
                 var init = snapshot.val();
 
-                if (true) {
+                if (init == "false") {
 
                     ref_chk = ref(db, `users/${uid}/devices`);
                     update(ref_chk, {
