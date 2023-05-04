@@ -1,5 +1,3 @@
-
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
 import { getAuth, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js";
@@ -122,6 +120,7 @@ function set_listener() {
         const data = snapshot.val();
         if (!data && update_ecg && first_run && device_state) {
             update_ecg = false;
+            first_run = false;
             get_ecg(device);
         } else {
             pending_task = true;
@@ -327,7 +326,7 @@ async function get_ecg(device) {
 
     const date = new Date();
 
-    let currentDay = String(date.getDate()).padStart(2, '0');
+    let currentDay = String(date.getDate()).padStart(1, '0');
 
     let currentMonth = String(date.getMonth() + 1);
 
